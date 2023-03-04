@@ -54,7 +54,7 @@ const toggleGameState = () => {
     gameState.taskInProcess = !gameState.taskInProcess
 }
 
-const gameElements = document.getElementById("my_game").children
+const gameElements = document.getElementById("my_game_calc").children
 
 // называем все элементы div
 const title = gameElements[0]
@@ -232,7 +232,7 @@ function getPosts() {
    // catch ловит ошибки и принимает 
 }
 
-showPostBtn.onclick = getPosts
+ //showPostBtn.onclick = getPosts
 
 //     function createPost(title, body, userId) {
 //         fetch("https://jsonplaceholder.typicode.com/posts", {
@@ -256,5 +256,6 @@ showPostBtn.onclick = getPosts
 //     .catch(err => console.log(err.message))
 //    // catch ловит ошибки и принимает 
 //     }
-
-//     createPost("title","body", 15)
+ 
+// createPost("title","body", 15)
+getPosts()

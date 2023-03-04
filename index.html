@@ -13,15 +13,16 @@
     <header>
         <h1>Сайт-визитка</h1>
         <nav>
-            <a href="">About us</a>
-            <a href="">Hobby</a>
-            <a href="">Contact us</a>
+            <a href="#about">Обо мне</a>
+            <a href="#my_game_calc">Игра Примеры</a>
+            <a href="#my_game_blocks">Игра Блоки</a>
+            <a href="#posts_block">Блог</a>
         </nav>
     </header>
 
     <main>
 
-        <div class="about_us">
+        <div class="about_us" id="about">
             <div>
                 <img src="./image.jpg" alt="logo" title="title">
 
@@ -48,7 +49,7 @@
             </div>
         </div>
         <hr>
-        <div class="my_game" id="my_game">
+        <div class="my_game" id="my_game_calc">
             <h2>Нажмите кнопку чтобы начать игру!</h2>
             <p></p>
             <input type="number" hidden>
@@ -56,7 +57,7 @@
             <button>Начать</button>
         </div>
         <hr>
-        <div class="choosed_block">
+        <div class="choosed_block" id="my_game_blocks">
             <h2>Выберите элементы</h2>
             <p>Элементов выбрано: <span>0</span></p>
             <div class="choosed_block_container">
@@ -75,7 +76,7 @@
             </div>
         </div>
         <hr>
-        <div class="posts_block">
+        <div class="posts_block" id="posts_block">
             <h2>Блог</h2>
             <button>Показать посты</button>
             <div class="posts_block-container">
