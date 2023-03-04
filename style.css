@@ -9,17 +9,23 @@
 
 }
 
-header nav {
-    background-color: lightgray;
+header {
+    /* background-color: lightgray; */
     height: 50px;
+    width: 100%;
+    top: 0;
+    position: fixed;
 }
 
 nav {
     /*border: 10px dotted black; */
     height: inherit;
+    width: inherit;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: lightgray;
+
 }
 
 nav>a {
@@ -29,10 +35,14 @@ nav>a {
     font-size: 20px;
 }
 
+nav > a:hover {
+    color: blue;
+}
 
 main {
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 50px;
 }
 
 

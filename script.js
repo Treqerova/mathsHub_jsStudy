@@ -232,7 +232,7 @@ function getPosts() {
    // catch ловит ошибки и принимает 
 }
 
- //showPostBtn.onclick = getPosts
+ showPostBtn.onclick = getPosts
 
 //     function createPost(title, body, userId) {
 //         fetch("https://jsonplaceholder.typicode.com/posts", {
@@ -258,4 +258,4 @@ function getPosts() {
 //     }
  
 // createPost("title","body", 15)
-getPosts()
+// getPosts()
